@@ -1,0 +1,124 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body { 
+	background: #000000; font-family: 'Raleway', sans-serif; font-size: 16px; color: #000000;
+}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	color: #222222;
+}
+
+#resume {
+	width: 90%;
+	max-width: 800px;
+	background: #ffffff;
+	margin: 20px auto;
+}
+
+.profile {
+	padding: 20px 30px;
+	border-bottom: 2px solid #0000ff;
+	background: #ffffff;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: -5px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#primary {
+	padding: 0 30px;
+}
+
+#name {
+	float: left;
+}
+
+#contactinfo {
+	float: right;
+}
+
+#contactinfo ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactinfo ul li {
+	margin-bottom: 5px;
+	color: #222222;
+}
+
+
+#contactinfo ul li a, a[href^=tel] {
+	color: #222222; 
+}
+
+#contactinfo ul li a:hover { 
+	color: #0000ff;
+}
+
+
+section {
+	border-top: 2px solid #999999;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.title {
+	float: left;
+	width: 25%;
+}
+
+.content{
+	float: right;
+	width: 72.5%;
+}
+
+.title h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	color: #0000ff;
+}
+
+.content h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.fieldinfo {
+	font-size: 0.7em;
+	margin-bottom: 5px;
+}
